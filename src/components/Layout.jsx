@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Outlet, useLocation } from "react-router-dom";
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 import FluidCursor from "./FluidCursor";
 
 const hiddenStyle = {
@@ -69,6 +70,7 @@ export default function Layout({ children }) {
       <main id="main-content" tabIndex={-1} className="main-content">
         {children !== undefined && children !== null ? children : <Outlet />}
       </main>
+      <Footer />
       <FluidCursor />
     </div>
   );

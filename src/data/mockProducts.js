@@ -9,7 +9,7 @@ export const mockProducts = [
     rating: 4.9,
     stockStatus: "low-stock",
     categories: ["all", "wearables"],
-    image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSc2MDAnIGhlaWdodD0nNDAwJyB2aWV3Qm94PScwIDAgNjAwIDQwMCc+PHJlY3Qgd2lkdGg9JzEwMCUnIGhlaWdodD0nMTAwJScgZmlsbD0nIzA1MzI1NicvPjxjaXJjbGUgY3g9JzMwMCcgY3k9JzIwMCcgcj0nODAnIGZpbGw9JyNhOGU2ZjgnIG9wYWNpdHk9JzAuOCcvPjxwYXRoIGQ9J00yMDAgMjAwIFEzMDAgMTAwIDQwMCAyMDAnIHN0cm9rZT0nI2ZmZDQ1ZScgc3Ryb2tlLXdpZHRoPSc0JyBmaWxsPSdub25lJy8+PC9zdmc+",
+   image: 'https://images.unsplash.com/photo-1593508512255-86ab42a8e620?auto=format&fit=crop&q=75&w=500',
     specs: ["8K micro-OLED per eye", "120Hz photon refresh", "Neural eye tracking", "12h graphene cell"]
   },
   {
@@ -22,7 +22,7 @@ export const mockProducts = [
     rating: 4.8,
     stockStatus: "in-stock",
     categories: ["all", "wearables"],
-    image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSc2MDAnIGhlaWdodD0nNDAwJyB2aWV3Qm94PScwIDAgNjAwIDQwMCc+PHJlY3Qgd2lkdGg9JzEwMCUnIGhlaWdodD0nMTAwJScgZmlsbD0nIzA1MzI1NicvPjxjaXJjbGUgY3g9JzI0MCcgY3k9JzIwMCcgcj0nNTAnIGZpbGw9JyNmZmQ0NWUnIG9wYWNpdHk9JzAuNycvPjxjaXJjbGUgY3g9JzM2MCcgY3k9JzIwMCcgcj0nNTAnIGZpbGw9JyNmZmQ0NWUnIG9wYWNpdHk9JzAuNycvPjwvc3ZnPg==",
+  image: 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&q=75&w=500',
     specs: ["Direct bone conduction", "Bio-adaptive resonance", "Zero latent processing", "IPX8 synthetic mesh"]
   },
   {
@@ -35,7 +35,7 @@ export const mockProducts = [
     rating: 4.7,
     stockStatus: "in-stock",
     categories: ["all", "holographics"],
-    image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSc2MDAnIGhlaWdodD0nNDAwJyB2aWV3Qm94PScwIDAgNjAwIDQwMCc+PHJlY3Qgd2lkdGg9JzEwMCUnIGhlaWdodD0nMTAwJScgZmlsbD0nIzA1MzI1NicvPjxwb2x5Z29uIHBvaW50cz0nMzAwLDEwMCA0NTAsMzAwIDE1MCwzMDAnIGZpbGw9JyNhOGU2ZjgnIG9wYWNpdHk9JzAuNicvPjwvc3ZnPg==",
+    image: 'https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&q=75&w=500',
     specs: ["4K light field emission", "Intelligent hand tracking", "Solid state optical core", "Magnetic dock interface"]
   },
   {
@@ -48,7 +48,7 @@ export const mockProducts = [
     rating: 4.9,
     stockStatus: "low-stock",
     categories: ["all", "hardware"],
-    image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSc2MDAnIGhlaWdodD0nNDAwJyB2aWV3Qm94PScwIDAgNjAwIDQwMCc+PHJlY3Qgd2lkdGg9JzEwMCUnIGhlaWdodD0nMTAwJScgZmlsbD0nIzA1MzI1NicvPjxyZWN0IHg9JzE1MCcgeT0nMTIwJyB3aWR0aD0nMzAwJyBoZWlnaHQ9JzE2MCcgcng9JzIwJyBmaWxsPScjZmZkNDVlJyBvcGFjaXR5PScwLjUnLz48L3N2Zz4=",
+    image: 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&q=75&w=500',
     specs: ["Synapse input triggers", "Solid brass framework", "Hot-swap optical matrix", "USB-C micro shielded"]
   },
   {
@@ -61,7 +61,7 @@ export const mockProducts = [
     rating: 4.6,
     stockStatus: "in-stock",
     categories: ["all", "holographics"],
-    image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSc2MDAnIGhlaWdodD0nNDAwJyB2aWV3Qm94PScwIDAgNjAwIDQwMCc+PHJlY3Qgd2lkdGg9JzEwMCUnIGhlaWdodD0nMTAwJScgZmlsbD0nIzA1MzI1NicvPjxjaXJjbGUgY3g9JzMwMCcgY3k9JzIwMCcgcj0nOTAnIGZpbGw9JyNhOGU2ZjgnIG9wYWNpdHk9JzAuNCcvPjxjaXJjbGUgY3g9JzMwMCcgY3k9JzIwMCcgcj0nNDAnIGZpbGw9JyNmZmQ0NWUnIG9wYWNpdHk9JzAuOCcvPjwvc3ZnPg==",
+    image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=75&w=500',
     specs: ["360 laser projection grid", "Intelligent spatial mesh", "Cosmic dynamic maps", "Smart device tracking"]
   },
   {
@@ -74,7 +74,7 @@ export const mockProducts = [
     rating: 4.9,
     stockStatus: "low-stock",
     categories: ["all", "wearables"],
-    image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSc2MDAnIGhlaWdodD0nNDAwJyB2aWV3Qm94PScwIDAgNjAwIDQwMCc+PHJlY3Qgd2lkdGg9JzEwMCUnIGhlaWdodD0nMTAwJScgZmlsbD0nIzA1MzI1NicvPjxjaXJjbGUgY3g9JzMwMCcgY3k9JzIwMCcgcj0nNzUnIHN0cm9rZT0nI2ZmZDQ1ZScgc3Ryb2tlLXdpZHRoPSc2JyBmaWxsPSdub25lJy8+PGxpbmUgeDE9JzMwMCcgeTE9JzIwMCcgeDI9JzMwMCcgeTI9JzE0MCcgc3Ryb2tlPScjZmZmJyBzdHJva2Utd2lkdGg9JzQnLz48L3N2Zz4=",
+    image: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&q=75&w=500',
     specs: ["Cesium atomic monitoring", "Solid carbon casing", "Sapphire touch display", "Deep sea proof 200m"]
   },
   {
@@ -87,7 +87,7 @@ export const mockProducts = [
     rating: 4.8,
     stockStatus: "in-stock",
     categories: ["all", "hardware"],
-    image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSc2MDAnIGhlaWdodD0nNDAwJyB2aWV3Qm94PScwIDAgNjAwIDQwMCc+PHJlY3Qgd2lkdGg9JzEwMCUnIGhlaWdodD0nMTAwJScgZmlsbD0nIzA1MzI1NicvPjxyZWN0IHg9JzIwMCcgeT0nMTAwJyB3aWR0aD0nMjAwJyBoZWlnaHQ9JzIwMCcgcng9JzEwJyBmaWxsPScjYThlNmY4JyBvcGFjaXR5PScwLjYnLz48L3N2Zz4=",
+    image: 'https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&q=75&w=500',
     specs: ["Fluid biological cooling", "100Gbps network rails", "Cryogenic core setup", "Modular server rack"]
   },
   {
@@ -100,7 +100,7 @@ export const mockProducts = [
     rating: 4.7,
     stockStatus: "in-stock",
     categories: ["all", "hardware"],
-    image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSc2MDAnIGhlaWdodD0nNDAwJyB2aWV3Qm94PScwIDAgNjAwIDQwMCc+PHJlY3Qgd2lkdGg9JzEwMCUnIGhlaWdodD0nMTAwJScgZmlsbD0nIzA1MzI1NicvPjxyZWN0IHg9JzEwMCcgeT0nMTAwJyB3aWR0aD0nNDAwJyBoZWlnaHQ9JzIwMCcgc3Ryb2tlPScjZmZkNDVlJyBzdHJva2Utd2lkdGg9JzQnIGZpbGw9J25vbmUnLz48L3N2Zz4=",
+    image: 'https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&q=75&w=500',
     specs: ["Borderless zero emission", "Infinite black dimming", "Dynamic contrast engine", "Integrated sensor matrix"]
   }
 ];
